@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
 
                 // Свойство response.end_session возвращается со значением false,
                 // чтобы диалог не завершался.
-                end_session: false,
+                end_session: true,
             },
         }
     ));
