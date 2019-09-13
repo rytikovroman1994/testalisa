@@ -4,6 +4,9 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.json());
+app.get('/', function(req, res) {
+    console.log('hello')
+});
 
 app.post('/', function (req, res) {
 
